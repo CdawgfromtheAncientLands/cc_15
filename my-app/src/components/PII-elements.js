@@ -10,12 +10,12 @@ const PersonalInfo = () => {
   return (
     <div className="dropdown">
       <div className="dropdown-label" onClick={toggleDropdown}>
-        Personal Information
+        Personal Information <span className={isOpen ? 'arrow down' : 'arrow right'}>▶</span>
       </div>
       {isOpen && (
         <div className="dropdown-content">
           <h2>Collin Russell</h2>
-          <p>Biography: A passionate and emotionally-aware artist who turned to programming as a source of easy cash in these hard times.</p>
+          <p>A passionate and emotionally-aware artist who turned to programming as a source of easy cash in these hard times.</p>
           <p>I can be contacted at SuperCollin123456789@hotmoose.net, and my phone number is 221-221-2221.</p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">Collin Russell</a></p>
         </div>
