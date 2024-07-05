@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import PersonalInfo from './components/PII-elements';
 import Skills from './components/skills-compiler';
-//import Experiences from './components/Experiences';
+import Experiences from './components/experience-compiler';
 //import Educations from './components/Educations';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <PersonalInfo />
       <Skills />
+      <Experiences />
     </div>
   );
 }
