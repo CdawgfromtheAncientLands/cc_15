@@ -4,7 +4,7 @@ import './App.css';
 import PersonalInfo from './components/PII-elements';
 import Skills from './components/skills-compiler';
 import Experiences from './components/experience-compiler';
-//import Educations from './components/Educations';
+import Educations from './components/education-compiler';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <PersonalInfo />
       <Skills />
       <Experiences />
+      <Educations />
     </div>
   );
 }
