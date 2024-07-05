@@ -41,6 +41,10 @@
   transform: rotate(90deg);
 }
 
+.experience, .skill, .education {
+  margin-bottom: 10px;
+}
+
 h2, h3 {
   color: #333;
 }
